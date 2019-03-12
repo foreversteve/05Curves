@@ -18,7 +18,7 @@ def add_curve( points, x0, y0, x1, y1, x2, y2, x3, y3, step, curve_type ):
 	x_list = [[x0,x1,x2,x3]]
 	y_list = [[y0,y1,y2,y3]]
 
-	print(x_list[0])
+	# print(x_list[0])
 
 	if curve_type == "hermite":
 		hermite = make_hermite()
